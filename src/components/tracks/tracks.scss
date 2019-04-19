@@ -1,0 +1,57 @@
+.track-section {
+    width: 80%;
+    margin: 4% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.track-container {
+    position: relative;
+    width: 250px;
+    margin-bottom: 4%;
+    box-shadow: 1px 1px 10px 1px grey;
+}
+
+.track__img {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+    box-sizing: border-box;
+}
+
+.track__name {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    margin: 0;
+    background: black;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2% 1%;
+}
+
+.track__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    background: black;
+    border-radius: 25px;
+    position: absolute;
+    top: 100px;
+    right: 117px;
+    transform: translate(50%);
+
+    width: 50px;
+    height: 50px;
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.track--icon--modifier {
+    cursor: default;
+}
